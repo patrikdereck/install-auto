@@ -1,5 +1,5 @@
 server {
-  server_name aapp.conectivax.uk;
+  server_name chat.turbonetguaratiba.com.br;
   
   root /var/www/html/izing.io/frontend/dist/pwa;
   
