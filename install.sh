@@ -15,7 +15,7 @@ apt update
 apt install python2-minimal -y
 apt-get install build-essential -y
 docker run -e TZ="America/Sao_Paulo" --name redis-izing -p 6379:6379 -d --restart=always redis:latest redis-server --appendonly yes --requirepass "izing1551"
-docker run --name turbonet -e POSTGRES_USER=turbonet -e POSTGRES_PASSWORD=izing1551 -p 5432:5432 -v /data:/var/lib/postgresql/data -d postgres
+docker run --name izing -e POSTGRES_USER=izing -e POSTGRES_PASSWORD=izing1551 -p 5432:5432 -v /data:/var/lib/postgresql/data -d postgres
 cd ~
 wget https://github.com/patrikdereck/izing.io/archive/refs/heads/beta.zip
 unzip beta.zip
