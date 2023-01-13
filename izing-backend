@@ -1,5 +1,5 @@
 server {
-  server_name api.turbonetguaratiba.com.br;
+  server_name api.fasinvoice.com;
 
   location / {
     proxy_pass http://127.0.0.1:8081;
