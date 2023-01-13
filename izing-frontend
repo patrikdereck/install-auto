@@ -1,5 +1,5 @@
 server {
-  server_name chat.turbonetguaratiba.com.br;
+  server_name chat.fasinvoice.com;
   
   root /var/www/html/izing.io/frontend/dist/pwa;
   
